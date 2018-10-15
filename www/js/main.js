@@ -26,4 +26,13 @@ console.log(i);
 let even = prompt("är ditt tal jämt?");
 let answer = even % 2 === 0;
 alert(answer);
+
+let i = ("Hej på dig");
+let j = i.indexOf("dig");
+console.log(j);
 */
+
+let i = prompt("Skriv ett tecken så kollar vi om det är med i alfabetet")
+let p = new RegExp (/^[a-zA-ZåäöÅÄÖ]+$/);
+let res = p.test(i);
+prompt(res);
